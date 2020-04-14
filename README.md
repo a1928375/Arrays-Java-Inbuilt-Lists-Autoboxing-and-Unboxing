@@ -52,8 +52,7 @@
       (1) You job is to create a simple banking application. There should be a Bank class. It should have an arraylist of Branches.
       Each Branch should have an arraylist of Customers. The Customer class should have an arraylist of Doubles (transactions).
 	
-		(i) Customer: 
-			Name, and the ArrayList of doubles.
+		(i) Customer: Name, and the ArrayList of doubles.
 
 		(ii) Branch: 
          		Need to be able to add a new customer and initial transaction amount.
@@ -70,8 +69,7 @@
 
 		(i) Transactions
 
-        (ii) Add data validation.
-         		e.g. check if exists, or does not exist, etc.
+        (ii) Add data validation. e.g. check if exists, or does not exist, etc.
 
 		(iii) Think about where you are adding the code to perform certain actions.
 		
