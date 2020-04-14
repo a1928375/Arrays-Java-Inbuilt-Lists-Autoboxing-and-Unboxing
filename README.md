@@ -49,7 +49,7 @@
 	 
 8. BankingApplication:
 
-         (1) You job is to create a simple banking application. There should be a Bank class. It should have an arraylist of Branches.
+      (1) You job is to create a simple banking application. There should be a Bank class. It should have an arraylist of Branches.
          Each Branch should have an arraylist of Customers. The Customer class should have an arraylist of Doubles (transactions).
 
 	   	(i) Customer: 
