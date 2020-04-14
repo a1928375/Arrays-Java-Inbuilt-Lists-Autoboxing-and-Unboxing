@@ -83,4 +83,4 @@
 	 
 	 	To replay a song, consider what happened when we went back and forth from a city before we started tracking the 			direction we were going.
 		
-        	As an optional extra, provide an option to remove the current song from the playlist (hint: listiterator.remove()
+        As an optional extra, provide an option to remove the current song from the playlist (hint: listiterator.remove()
