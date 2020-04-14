@@ -41,7 +41,7 @@
 
 7. ArrayListTest: 
 
-         (1) Create a program that implements a simple mobile phone with the following capabilities. Able to store, modify, remove and 		 query contact names. You will want to create a separate class for Contacts (name and phone number). Create a master class 		 (MobilePhone) that holds the ArrayList of Contacts.
+      (1) Create a program that implements a simple mobile phone with the following capabilities. Able to store, modify, remove and 		 query contact names. You will want to create a separate class for Contacts (name and phone number). Create a master class 		 (MobilePhone) that holds the ArrayList of Contacts.
 	 
 	 (2) The MobilePhone class has the functionality listed above. Add a menu of options that are available.
          
