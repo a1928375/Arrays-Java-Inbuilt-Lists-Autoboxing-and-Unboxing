@@ -30,3 +30,49 @@
 	         
                   Assume that the user will only enter numbers, never letters
 	         For simplicity, create a Scanner as a static field to help with data input
+
+5. ReverseArray:
+
+	(1) Write a method called reverse() with an int array as a parameter. The method should not return any value. In other words, 		the method is allowed to modify the array parameter.
+
+	(2) In main() test the reverse() method and print the array both reversed and non-reversed. To reverse the array, you have to 		swap the elements, so that the first element is swapped with the last element and so on. For example, if the array is {1, 2, 3, 	4, 5}, then the reversed array is {5, 4, 3, 2, 1}.
+
+6. ArrayList: The concepts of ArrayList in Java.
+
+7. ArrayListTest: 
+
+         (1) Create a program that implements a simple mobile phone with the following capabilities. Able to store, modify, remove and 		 query contact names. You will want to create a separate class for Contacts (name and phone number). Create a master class 		 (MobilePhone) that holds the ArrayList of Contacts.
+	 
+	 (2) The MobilePhone class has the functionality listed above. Add a menu of options that are available.
+         
+	 (3) Options: Quit, print list of contacts, add new contact, update existing contact, remove contact and search/find contact. 		 When adding or updating be sure to check if the contact already exists (use name). Be sure not to expose the inner workings of  	  the Arraylist to MobilePhone e.g. no ints, no .get(i) etc. MobilePhone should do everything with Contact objects only.
+	 
+8. BankingApplication:
+
+         (1) You job is to create a simple banking application. There should be a Bank class. It should have an arraylist of Branches.
+         Each Branch should have an arraylist of Customers. The Customer class should have an arraylist of Doubles (transactions).
+         
+	 	Customer: 
+			Name, and the ArrayList of doubles.
+         	
+		Branch: 
+         		Need to be able to add a new customer and initial transaction amount.
+        		Also needs to add additional transactions for that customer/branch.
+			
+        	Bank:
+         		Add a new branch
+         		Add a customer to that branch with initial transaction
+        		Add a transaction for an existing customer for that branch
+         		Show a list of customers for a particular branch and optionally a list of their transactions
+         		Demonstration autoboxing and unboxing in your code
+        
+	(2) Hint: 
+		
+		(i) Transactions
+		
+        	(ii)Add data validation.
+         		e.g. check if exists, or does not exist, etc.
+         	
+		(iii) Think about where you are adding the code to perform certain actions.
+		
+		
