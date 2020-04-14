@@ -4,7 +4,7 @@
          
 2. ArrayTest:
 
-         (1) Create a program using arrays that sorts a list of integers in descending order. Descending order is highest value to                lowest. In other words if the array had the values in it 106, 26, 81, 5, 15 your program should ultimately have an array with            106, 81, 26, 15, 5 in it. Set up the program so that the numbers to sort are read in from the keyboard.
+         (1) Create a program using arrays that sorts a list of integers in descending order. Descending order is highest value to lowest. In other words if the array had the values in it 106, 26, 81, 5, 15 your program should ultimately have an array with 106, 81, 26, 15, 5 in it. Set up the program so that the numbers to sort are read in from the keyboard.
          
          (2) Implement the following methods - getIntegers, printArray, and sortIntegers
          
@@ -12,45 +12,44 @@
                 (ii) printArray prints out the contents of the array
                 (iii) sortIntegers should sort the array and return a new array containing the sorted numbers
          
-         you will have to figure out how to copy the array elements from the passed array into a new array and sort them and return the          new sorted array.
+         you will have to figure out how to copy the array elements from the passed array into a new array and sort them and return the new sorted array.
 
 3. ReferenceVsValueType: The concepts between reference type & value type in Java.
 
 4. MinElement:
 
-         (1) Write a method called readIntegers() with a parameter called count that represents how many integers the user needs to              enter. The method needs to read from the console until all the numbers are entered, and then return an array containing the              numbers entered. 
+         (1) Write a method called readIntegers() with a parameter called count that represents how many integers the user needs to enter. The method needs to read from the console until all the numbers are entered, and then return an array containing the numbers entered. 
          
          (2) Write a method findMin() with the array as a parameter. The method needs to return the minimum value in the array. 
          
          (3) In the main() method read the count from the console and call the method readIntegers() with the count parameter. 
 
-         (4) Then call the findMin() method passing the array returned from the call to the readIntegers() method. Finally, print the            minimum element in the array.
+         (4) Then call the findMin() method passing the array returned from the call to the readIntegers() method. Finally, print the minimum element in the array.
 
          (5) Tips: 
 	         
                   Assume that the user will only enter numbers, never letters
-	         For simplicity, create a Scanner as a static field to help with data input
+	          For simplicity, create a Scanner as a static field to help with data input
 
 5. ReverseArray:
 
-	(1) Write a method called reverse() with an int array as a parameter. The method should not return any value. In other words, 		the method is allowed to modify the array parameter.
+	(1) Write a method called reverse() with an int array as a parameter. The method should not return any value. In other words, the method is allowed to modify the array parameter.
 
-	(2) In main() test the reverse() method and print the array both reversed and non-reversed. To reverse the array, you have to 		swap the elements, so that the first element is swapped with the last element and so on. For example, if the array is {1, 2, 3, 	4, 5}, then the reversed array is {5, 4, 3, 2, 1}.
+	(2) In main() test the reverse() method and print the array both reversed and non-reversed. To reverse the array, you have to swap the elements, so that the first element is swapped with the last element and so on. For example, if the array is {1, 2, 3, 	4, 5}, then the reversed array is {5, 4, 3, 2, 1}.
 
 6. ArrayList: The concepts of ArrayList in Java.
 
 7. ArrayListTest: 
 
-      (1) Create a program that implements a simple mobile phone with the following capabilities. Able to store, modify, remove and 		 query contact names. You will want to create a separate class for Contacts (name and phone number). Create a master class 		 (MobilePhone) that holds the ArrayList of Contacts.
+      (1) Create a program that implements a simple mobile phone with the following capabilities. Able to store, modify, remove and query contact names. You will want to create a separate class for Contacts (name and phone number). Create a master class (MobilePhone) that holds the ArrayList of Contacts.
 	 
 	 (2) The MobilePhone class has the functionality listed above. Add a menu of options that are available.
          
-	 (3) Options: Quit, print list of contacts, add new contact, update existing contact, remove contact and search/find contact. 		 When adding or updating be sure to check if the contact already exists (use name). Be sure not to expose the inner workings of  	  the Arraylist to MobilePhone e.g. no ints, no .get(i) etc. MobilePhone should do everything with Contact objects only.
+	 (3) Options: Quit, print list of contacts, add new contact, update existing contact, remove contact and search/find contact. When adding or updating be sure to check if the contact already exists (use name). Be sure not to expose the inner workings of the Arraylist to MobilePhone e.g. no ints, no .get(i) etc. MobilePhone should do everything with Contact objects only.
 	 
 8. BankingApplication:
 
-      (1) You job is to create a simple banking application. There should be a Bank class. It should have an arraylist of Branches.
-      Each Branch should have an arraylist of Customers. The Customer class should have an arraylist of Doubles (transactions).
+      (1) You job is to create a simple banking application. There should be a Bank class. It should have an arraylist of Branches. Each Branch should have an arraylist of Customers. The Customer class should have an arraylist of Doubles (transactions).
 	
 		(i) Customer: Name, and the ArrayList of doubles.
 
@@ -77,10 +76,10 @@
 
       (1) Create a program that implements a playlist for songs. Create a Song class having Title and Duration for a song. The 		 program will have an Album class containing a list of songs. The albums will be stored in an ArrayList. Songs from different 		 albums can be added to the playlist and will appear in the list in the order they are added.
          
-	 (2) Once the songs have been added to the playlist, create a menu of options to: Quit,Skip forward to the next song, skip 		 backwards to a previous song.  Replay the current song. List the songs in the playlist. A song must exist in an album before it 	  can be added to the playlist (so you can only play songs that you own).
+	 (2) Once the songs have been added to the playlist, create a menu of options to: Quit,Skip forward to the next song, skip backwards to a previous song.  Replay the current song. List the songs in the playlist. A song must exist in an album before it 	  can be added to the playlist (so you can only play songs that you own).
          
 	 (3) Hint: 
 	 
-	 	To replay a song, consider what happened when we went back and forth from a city before we started tracking the 			direction we were going.
-		
-        As an optional extra, provide an option to remove the current song from the playlist (hint: listiterator.remove()
+		To replay a song, consider what happened when we went back and forth from a city before we started tracking the direction we were going.
+
+		As an optional extra, provide an option to remove the current song from the playlist (hint: listiterator.remove()
