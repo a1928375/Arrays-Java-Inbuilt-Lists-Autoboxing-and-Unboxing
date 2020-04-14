@@ -55,7 +55,7 @@
 	   	(i) Customer: 
 			Name, and the ArrayList of doubles.
 
-		(ii) Branch: 
+		        (ii) Branch: 
          		Need to be able to add a new customer and initial transaction amount.
         		Also needs to add additional transactions for that customer/branch.
 
@@ -70,7 +70,7 @@
 
 		(i) Transactions
 
-        	(ii) Add data validation.
+        (ii) Add data validation.
          		e.g. check if exists, or does not exist, etc.
 
 		(iii) Think about where you are adding the code to perform certain actions.
